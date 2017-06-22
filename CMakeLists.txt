@@ -31,7 +31,7 @@ generate_messages()
 
 catkin_package(
 INCLUDE_DIRS include
-CATKIN_DEPENDS common_msgs image_common message_runtime
+CATKIN_DEPENDS nav_msgs sensor_msgs geometry_msgs image_common message_runtime
 )
 
 include_directories(
